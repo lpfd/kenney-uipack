@@ -1,0 +1,174 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/nl.kenney.uipack/UIPack/Styles.uss?fileID=7433441132597879392&amp;guid=6b2ba52b893135e4bbb95e1628538ea0&amp;type=3#Styles"/>
+    <ui:TabView tabindex="1" class="blue button_rectangle_flat" style="height: 100%; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+        <ui:Tab label="Buttons" style="padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; height: auto;">
+        <ui:ScrollView>
+        <ui:VisualElement style="flex-direction: row; flex-wrap: wrap;">
+            <ui:Button text="button_rectangle_border" class="blue button_rectangle_border"/>
+            <ui:Button text="button_rectangle_depth_border" class="blue button_rectangle_depth_border"/>
+            <ui:Button text="button_rectangle_depth_flat" class="blue button_rectangle_depth_flat"/>
+            <ui:Button text="button_rectangle_depth_gloss" class="blue button_rectangle_depth_gloss"/>
+            <ui:Button text="button_rectangle_depth_gradient" class="blue button_rectangle_depth_gradient"/>
+            <ui:Button text="button_rectangle_depth_line" class="blue button_rectangle_depth_line"/>
+            <ui:Button text="button_rectangle_flat" class="blue button_rectangle_flat"/>
+            <ui:Button text="button_rectangle_gloss" class="blue button_rectangle_gloss"/>
+            <ui:Button text="button_rectangle_gradient" class="blue button_rectangle_gradient"/>
+            <ui:Button text="button_rectangle_line" class="blue button_rectangle_line"/>
+            <ui:Button text="button_round_border" class="blue button_round_border"/>
+            <ui:Button text="button_round_depth_border" class="blue button_round_depth_border"/>
+            <ui:Button text="button_round_depth_flat" class="blue button_round_depth_flat"/>
+            <ui:Button text="button_round_depth_gloss" class="blue button_round_depth_gloss"/>
+            <ui:Button text="button_round_depth_gradient" class="blue button_round_depth_gradient"/>
+            <ui:Button text="button_round_depth_line" class="blue button_round_depth_line"/>
+            <ui:Button text="button_round_flat" class="blue button_round_flat"/>
+            <ui:Button text="button_round_gloss" class="blue button_round_gloss"/>
+            <ui:Button text="button_round_gradient" class="blue button_round_gradient"/>
+            <ui:Button text="button_round_line" class="blue button_round_line"/>
+            <ui:Button text="button_square_border" class="blue button_square_border"/>
+            <ui:Button text="button_square_depth_border" class="blue button_square_depth_border"/>
+            <ui:Button text="button_square_depth_flat" class="blue button_square_depth_flat"/>
+            <ui:Button text="button_square_depth_gloss" class="blue button_square_depth_gloss"/>
+            <ui:Button text="button_square_depth_gradient" class="blue button_square_depth_gradient"/>
+            <ui:Button text="button_square_depth_line" class="blue button_square_depth_line"/>
+            <ui:Button text="button_square_flat" class="blue button_square_flat"/>
+            <ui:Button text="button_square_gloss" class="blue button_square_gloss"/>
+            <ui:Button text="button_square_gradient" class="blue button_square_gradient"/>
+            <ui:Button text="button_square_line" class="blue button_square_line"/>
+            <ui:Button text="button_rectangle_depth_line" class="extra button_rectangle_depth_line"/>
+            <ui:Button text="button_rectangle_line" class="extra button_rectangle_line"/>
+            <ui:Button text="button_round_depth_line" class="extra button_round_depth_line"/>
+            <ui:Button text="button_round_line" class="extra button_round_line"/>
+            <ui:Button text="button_square_depth_line" class="extra button_square_depth_line"/>
+            <ui:Button text="button_square_line" class="extra button_square_line"/>
+            <ui:Button text="button_rectangle_border" class="green button_rectangle_border"/>
+            <ui:Button text="button_rectangle_depth_border" class="green button_rectangle_depth_border"/>
+            <ui:Button text="button_rectangle_depth_flat" class="green button_rectangle_depth_flat"/>
+            <ui:Button text="button_rectangle_depth_gloss" class="green button_rectangle_depth_gloss"/>
+            <ui:Button text="button_rectangle_depth_gradient" class="green button_rectangle_depth_gradient"/>
+            <ui:Button text="button_rectangle_depth_line" class="green button_rectangle_depth_line"/>
+            <ui:Button text="button_rectangle_flat" class="green button_rectangle_flat"/>
+            <ui:Button text="button_rectangle_gloss" class="green button_rectangle_gloss"/>
+            <ui:Button text="button_rectangle_gradient" class="green button_rectangle_gradient"/>
+            <ui:Button text="button_rectangle_line" class="green button_rectangle_line"/>
+            <ui:Button text="button_round_border" class="green button_round_border"/>
+            <ui:Button text="button_round_depth_border" class="green button_round_depth_border"/>
+            <ui:Button text="button_round_depth_flat" class="green button_round_depth_flat"/>
+            <ui:Button text="button_round_depth_gloss" class="green button_round_depth_gloss"/>
+            <ui:Button text="button_round_depth_gradient" class="green button_round_depth_gradient"/>
+            <ui:Button text="button_round_depth_line" class="green button_round_depth_line"/>
+            <ui:Button text="button_round_flat" class="green button_round_flat"/>
+            <ui:Button text="button_round_gloss" class="green button_round_gloss"/>
+            <ui:Button text="button_round_gradient" class="green button_round_gradient"/>
+            <ui:Button text="button_round_line" class="green button_round_line"/>
+            <ui:Button text="button_square_border" class="green button_square_border"/>
+            <ui:Button text="button_square_depth_border" class="green button_square_depth_border"/>
+            <ui:Button text="button_square_depth_flat" class="green button_square_depth_flat"/>
+            <ui:Button text="button_square_depth_gloss" class="green button_square_depth_gloss"/>
+            <ui:Button text="button_square_depth_gradient" class="green button_square_depth_gradient"/>
+            <ui:Button text="button_square_depth_line" class="green button_square_depth_line"/>
+            <ui:Button text="button_square_flat" class="green button_square_flat"/>
+            <ui:Button text="button_square_gloss" class="green button_square_gloss"/>
+            <ui:Button text="button_square_gradient" class="green button_square_gradient"/>
+            <ui:Button text="button_square_line" class="green button_square_line"/>
+            <ui:Button text="button_rectangle_border" class="grey button_rectangle_border"/>
+            <ui:Button text="button_rectangle_depth_border" class="grey button_rectangle_depth_border"/>
+            <ui:Button text="button_rectangle_depth_flat" class="grey button_rectangle_depth_flat"/>
+            <ui:Button text="button_rectangle_depth_gloss" class="grey button_rectangle_depth_gloss"/>
+            <ui:Button text="button_rectangle_depth_gradient" class="grey button_rectangle_depth_gradient"/>
+            <ui:Button text="button_rectangle_depth_line" class="grey button_rectangle_depth_line"/>
+            <ui:Button text="button_rectangle_flat" class="grey button_rectangle_flat"/>
+            <ui:Button text="button_rectangle_gloss" class="grey button_rectangle_gloss"/>
+            <ui:Button text="button_rectangle_gradient" class="grey button_rectangle_gradient"/>
+            <ui:Button text="button_rectangle_line" class="grey button_rectangle_line"/>
+            <ui:Button text="button_round_border" class="grey button_round_border"/>
+            <ui:Button text="button_round_depth_border" class="grey button_round_depth_border"/>
+            <ui:Button text="button_round_depth_flat" class="grey button_round_depth_flat"/>
+            <ui:Button text="button_round_depth_gloss" class="grey button_round_depth_gloss"/>
+            <ui:Button text="button_round_depth_gradient" class="grey button_round_depth_gradient"/>
+            <ui:Button text="button_round_depth_line" class="grey button_round_depth_line"/>
+            <ui:Button text="button_round_flat" class="grey button_round_flat"/>
+            <ui:Button text="button_round_gloss" class="grey button_round_gloss"/>
+            <ui:Button text="button_round_gradient" class="grey button_round_gradient"/>
+            <ui:Button text="button_round_line" class="grey button_round_line"/>
+            <ui:Button text="button_square_border" class="grey button_square_border"/>
+            <ui:Button text="button_square_depth_border" class="grey button_square_depth_border"/>
+            <ui:Button text="button_square_depth_flat" class="grey button_square_depth_flat"/>
+            <ui:Button text="button_square_depth_gloss" class="grey button_square_depth_gloss"/>
+            <ui:Button text="button_square_depth_gradient" class="grey button_square_depth_gradient"/>
+            <ui:Button text="button_square_depth_line" class="grey button_square_depth_line"/>
+            <ui:Button text="button_square_flat" class="grey button_square_flat"/>
+            <ui:Button text="button_square_gloss" class="grey button_square_gloss"/>
+            <ui:Button text="button_square_gradient" class="grey button_square_gradient"/>
+            <ui:Button text="button_square_line" class="grey button_square_line"/>
+            <ui:Button text="button_rectangle_border" class="red button_rectangle_border"/>
+            <ui:Button text="button_rectangle_depth_border" class="red button_rectangle_depth_border"/>
+            <ui:Button text="button_rectangle_depth_flat" class="red button_rectangle_depth_flat"/>
+            <ui:Button text="button_rectangle_depth_gloss" class="red button_rectangle_depth_gloss"/>
+            <ui:Button text="button_rectangle_depth_gradient" class="red button_rectangle_depth_gradient"/>
+            <ui:Button text="button_rectangle_depth_line" class="red button_rectangle_depth_line"/>
+            <ui:Button text="button_rectangle_flat" class="red button_rectangle_flat"/>
+            <ui:Button text="button_rectangle_gloss" class="red button_rectangle_gloss"/>
+            <ui:Button text="button_rectangle_gradient" class="red button_rectangle_gradient"/>
+            <ui:Button text="button_rectangle_line" class="red button_rectangle_line"/>
+            <ui:Button text="button_round_border" class="red button_round_border"/>
+            <ui:Button text="button_round_depth_border" class="red button_round_depth_border"/>
+            <ui:Button text="button_round_depth_flat" class="red button_round_depth_flat"/>
+            <ui:Button text="button_round_depth_gloss" class="red button_round_depth_gloss"/>
+            <ui:Button text="button_round_depth_gradient" class="red button_round_depth_gradient"/>
+            <ui:Button text="button_round_depth_line" class="red button_round_depth_line"/>
+            <ui:Button text="button_round_flat" class="red button_round_flat"/>
+            <ui:Button text="button_round_gloss" class="red button_round_gloss"/>
+            <ui:Button text="button_round_gradient" class="red button_round_gradient"/>
+            <ui:Button text="button_round_line" class="red button_round_line"/>
+            <ui:Button text="button_square_border" class="red button_square_border"/>
+            <ui:Button text="button_square_depth_border" class="red button_square_depth_border"/>
+            <ui:Button text="button_square_depth_flat" class="red button_square_depth_flat"/>
+            <ui:Button text="button_square_depth_gloss" class="red button_square_depth_gloss"/>
+            <ui:Button text="button_square_depth_gradient" class="red button_square_depth_gradient"/>
+            <ui:Button text="button_square_depth_line" class="red button_square_depth_line"/>
+            <ui:Button text="button_square_flat" class="red button_square_flat"/>
+            <ui:Button text="button_square_gloss" class="red button_square_gloss"/>
+            <ui:Button text="button_square_gradient" class="red button_square_gradient"/>
+            <ui:Button text="button_square_line" class="red button_square_line"/>
+            <ui:Button text="button_rectangle_border" class="yellow button_rectangle_border"/>
+            <ui:Button text="button_rectangle_depth_border" class="yellow button_rectangle_depth_border"/>
+            <ui:Button text="button_rectangle_depth_flat" class="yellow button_rectangle_depth_flat"/>
+            <ui:Button text="button_rectangle_depth_gloss" class="yellow button_rectangle_depth_gloss"/>
+            <ui:Button text="button_rectangle_depth_gradient" class="yellow button_rectangle_depth_gradient"/>
+            <ui:Button text="button_rectangle_depth_line" class="yellow button_rectangle_depth_line"/>
+            <ui:Button text="button_rectangle_flat" class="yellow button_rectangle_flat"/>
+            <ui:Button text="button_rectangle_gloss" class="yellow button_rectangle_gloss"/>
+            <ui:Button text="button_rectangle_gradient" class="yellow button_rectangle_gradient"/>
+            <ui:Button text="button_rectangle_line" class="yellow button_rectangle_line"/>
+            <ui:Button text="button_round_border" class="yellow button_round_border"/>
+            <ui:Button text="button_round_depth_border" class="yellow button_round_depth_border"/>
+            <ui:Button text="button_round_depth_flat" class="yellow button_round_depth_flat"/>
+            <ui:Button text="button_round_depth_gloss" class="yellow button_round_depth_gloss"/>
+            <ui:Button text="button_round_depth_gradient" class="yellow button_round_depth_gradient"/>
+            <ui:Button text="button_round_depth_line" class="yellow button_round_depth_line"/>
+            <ui:Button text="button_round_flat" class="yellow button_round_flat"/>
+            <ui:Button text="button_round_gloss" class="yellow button_round_gloss"/>
+            <ui:Button text="button_round_gradient" class="yellow button_round_gradient"/>
+            <ui:Button text="button_round_line" class="yellow button_round_line"/>
+            <ui:Button text="button_square_border" class="yellow button_square_border"/>
+            <ui:Button text="button_square_depth_border" class="yellow button_square_depth_border"/>
+            <ui:Button text="button_square_depth_flat" class="yellow button_square_depth_flat"/>
+            <ui:Button text="button_square_depth_gloss" class="yellow button_square_depth_gloss"/>
+            <ui:Button text="button_square_depth_gradient" class="yellow button_square_depth_gradient"/>
+            <ui:Button text="button_square_depth_line" class="yellow button_square_depth_line"/>
+            <ui:Button text="button_square_flat" class="yellow button_square_flat"/>
+            <ui:Button text="button_square_gloss" class="yellow button_square_gloss"/>
+            <ui:Button text="button_square_gradient" class="yellow button_square_gradient"/>
+            <ui:Button text="button_square_line" class="yellow button_square_line"/>
+        </ui:VisualElement>
+        </ui:ScrollView>
+        </ui:Tab>
+        <ui:Tab label="Checkboxes&#10;">
+            <ui:VisualElement style="flex-grow: 1; flex-direction: column;">
+                <ui:Toggle label="Enabled" value="true" class="blue check_square_color"/>
+                <ui:Toggle label="Disabled" value="false" enabled="false" class="blue-checkbox blue check_square_color"/>
+                <ui:Toggle label="Disabled Checked" value="true" enabled="false" toggle-on-label-click="true" class="blue check_square_color"/>
+            </ui:VisualElement>
+        </ui:Tab>
+    </ui:TabView>
+</ui:UXML>
