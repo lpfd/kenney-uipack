@@ -1,0 +1,9 @@
+{
+	"name": "nl.kenney.uipack",
+	"version": "0.0.1",
+	"displayName": "Kenney.nl UIPack",
+	"description": "Kenney.nl UIPack and extensions adapted for UI Toolkit",
+	"unity": "2022.3",
+	"dependencies": {
+	}
+}
